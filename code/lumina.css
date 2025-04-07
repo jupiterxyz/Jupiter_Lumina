@@ -60,9 +60,13 @@ img {
 	}
 .img_hlp_grpelders{
 	float: right;
-	margin-right: 0 0 10px 10 px; 
+	margin: 10px;
 }
 
+.img_hlp_grpelders img {
+  width: 800px;
+  height: auto;
+}
 
 .footer{
 	background-color: #23E882;
@@ -101,13 +105,17 @@ footer {
 	color: #b41218;
 	}
 #wrapper {
-/*	min-width: 900px;*/
+	min-width: 900px;
+	min-height: inherit;
 /*	max-width: 120px;*/
 /*	box-shadow: 3px 3px 3px #676767;*/
 /*	width: 80%;*/
 	background-color: #A5ACC3;
+	margin: 0 atuo;
+/*
 	margin-right: auto;
 	margin-left: auto;
+*/
 }
 
   
