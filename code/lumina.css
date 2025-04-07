@@ -74,13 +74,25 @@ img {
 		font-style: normal;
 		text-align: left;
 		padding: 1em;
-		border-top: 10000px #8C3826 solid;
+		border-top: 10px #8C3826 solid;
 		float: left;
 }
-.textbox-footer{
-/*	background-color:dodgerblue;*/
+.callToAction-main{
+	background-color: #23E882;
+		font-size: 0.60em;
+		font-style: normal;
+		text-align: left;
+		padding: 1em;
+		float: center;
 }
-
+.callToAction-access-button{
+		background-color: #23E882;
+		font-size: 0.60em;
+		font-style: normal;
+		text-align: left;
+		padding: 1em;
+		float: center;
+}
 
 footer {
 /*
