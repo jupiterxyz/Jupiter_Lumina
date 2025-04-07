@@ -34,11 +34,10 @@ h4 {
 		padding-bottom: .25em;
 	}
 nav { 
-	font-size: 1.5em;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		font-weight: bold;
-		text-align: center;
+/*	font-size: 1.5em;*/
+		padding-top: 30px;
+		padding-bottom: 30px;
+/*		text-align: center;*/
 		}
 nav a { 
 		text-decoration: none;
@@ -77,20 +76,46 @@ img {
 		border-top: 10px #8C3826 solid;
 		float: left;
 }
-.callToAction-main{
+.callToAction-home-link-button{
+	font-weight: bold;
+	border-radius: 10px;
 	background-color: #23E882;
-		font-size: 0.60em;
+		font-size: 50px;
+		font-family: Montserrat;
+		text-align: center;
+		color: white;
+		padding: .5em;
+		float: center;
+}
+.callToAction-pages-link-button{
+	border-radius: 8px;
+	background-color: #CB97D5;
+		font-size:25px;
+		font-family: Montserrat;
+		text-align: center;
+		color: black;
+		padding: .5em;
+		float: center;
+}
+.callToAction-main{
+	font-weight: bold;
+	background-color: #B41319;
+	border-radius: 8px;
+	color: white;
+	padding: 2em;
+		font-size: 16px;
 		font-style: normal;
 		text-align: left;
-		padding: 1em;
 		float: center;
 }
 .callToAction-access-button{
-		background-color: #23E882;
+	background-color: #B41319;
+	border-radius: 8px;
+	color: white;
+	padding: 2em;
 		font-size: 0.60em;
 		font-style: normal;
 		text-align: left;
-		padding: 1em;
 		float: center;
 }
 
