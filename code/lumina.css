@@ -2,7 +2,6 @@
 /* CSS Document */
 body {
 	background-color:#FCEBB6;
-	background-image:url("../../Library/CloudStorage/OneDrive-Personal/UWG/Fall 2023/Comp 2100 Web Development/Lebrun javajam4 Coffee Bar/javajam/images/fadedroad50.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -61,33 +60,23 @@ img {
 	}
 .img_hlp_grpelders{
 	float: right;
-	border-right-color: darkviolet;
-	border-radius: 100px;
+	margin-right: 0 0 10px 10 px; 
 }
-section{
-	margin-right: 100px;
-}
-/*
-.position_center{
-	position: absolute;
-	width: 70%
-}
-*/
+
+
 .footer{
 	background-color: #23E882;
 		font-size: 0.60em;
 		font-style: normal;
 		text-align: left;
 		padding: 1em;
-		border-top: 2px #8C3826 solid;
+		border-top: 10000px #8C3826 solid;
 		float: left;
 }
-#homehero {
-		height: 300px;
-		background-image:url("../../Library/CloudStorage/OneDrive-Personal/UWG/Fall 2023/Comp 2100 Web Development/Lebrun javajam4 Coffee Bar/javajam/images/hero.jpg");
-		background-size:cover;
-		background-repeat: no-repeat;
-	}
+.textbox-footer{
+	background-color:dodgerblue;
+}
+
 
 footer {
 		background-color: #23E882;
