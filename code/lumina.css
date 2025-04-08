@@ -17,6 +17,7 @@ header {
 }
 h1 {
 	font-size: 3em;
+	color: #8C3826
 }
 h2 {
 	color: #8C3826;
@@ -48,6 +49,27 @@ main {
 	padding-bottom: 2em;
 	display: block;
 	}
+.name-of-page{
+  display: flex;
+  align-items: center;     
+  justify-content: flex-start;  
+  gap: 15px;               
+  padding: 10px;          
+}
+.registraion-access{
+	display: flex;
+  align-items: center;     
+  justify-content: center;  
+  gap: 15px;               
+  padding: 10px;   
+}
+.textbox-footer{
+	display: flex;
+	align-items: center;
+/*	justify-content: center;*/
+	gap: .5px;
+	padding: 10px;   
+}
 .details {
 	padding-left: 20%;
 	padding-right: 20%;
@@ -103,7 +125,7 @@ img {
 	border-radius: 8px;
 	color: white;
 	padding: 2em;
-		font-size: 16px;
+		font-size: 12px;
 		font-style: normal;
 		text-align: left;
 		float: center;
