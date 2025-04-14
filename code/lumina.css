@@ -1,164 +1,179 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background-color:#A5ACC3;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	color: #221811;
-	font-family: Tahoma, Arial, Helvetiva;
+  background-color: #A5ACC3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #221811;
+  font-family: Tahoma, Arial, Helvetiva;
 }
 header {
-	background-color: #A5ACC3;
-	color: #8C3826;	
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  background-color: #A5ACC3;
+  color: #8C3826;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 h1 {
-	font-size: 3em;
-	color: #8C3826
+  font-size: 3em;
+  color: #B41319
 }
 h2 {
-	color: #8C3826;
+  color: #000000;
 }
 h3 {
-	color: #8C3826;
-	}	
+  color: #B41319;
+}
 dt {
-	color: #8C3826;
-	}
-h4 { 
-		background-color: #D2B48C;
-		font-size: 1.2em;
-		padding-left: .5em;
-		padding-bottom: .25em;
-	}
-nav { 
-	padding-top: 10px;
-	padding-bottom: 10px;
-	gap: 10px;
-	justify-content: center;
-	overflow: hidden;
-	flex-shrink: 0;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	}
-nav a { 
-		text-decoration: none;
-		}
-main {
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-bottom: 2em;
-	display: block;
-	}
-.name-of-page{
+  color: #B41319;
+}
+h4 {
+  background-color: #D2B48C;
+  font-size: 1.2em;
+  padding-left: .5em;
+  padding-bottom: .25em;
+}
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
   display: flex;
-  align-items: center;     
-  justify-content: flex-start;  
-  gap: 15px;               
-  padding: 10px;          
+  flex-direction: row;
+  align-items: flex-start;
+  text-decoration: none;
 }
-.registraion-access{
-	display: flex;
-  align-items: center;     
-  justify-content: center;  
-  gap: 15px;               
-  padding: 10px;   
+nav a {
+  text-decoration: none;
 }
-
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  display: block;
+}
+.name-of-page {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 10px;
+}
+.registraion-access {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
 .details {
-	padding-left: 20%;
-	padding-right: 20%;
-	}
-
-.left-colmn-content{
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .img_hlp_grpelders img {
-	float: right;
-	margin: 10px;
-	margin-left: 10000;
-  	width: 800px;
- 	height: auto;
-	border-radius: 10px;
+  float: right;
+  margin: 10px;
+  margin-left: 10000;
+  width: 800px;
+  height: auto;
+  border-radius: 10px;
+  border: 20px solid #FFFFFF;
 }
-.left-colmn-content{
-	float: left;
+.left-colmn-content {
+  float: left;
 }
-.callToAction-home-link-button{
-	font-weight: bold;
-	border-radius: 10px;
-	background-color: #23E882;
-		font-size: 50px;
-		font-family: Montserrat;
-		text-align: center;
-		color: white;
-		padding: .5em;
-		float: center;
+.callToAction-home-link-button {
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: #23E882;
+  font-size: 50px;
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+  padding: .5em;
+  float: center;
 }
-.callToAction-pages-link-button{
-	border-radius: 8px;
-	background-color: #CB97D5;
-		font-size:25px;
-		font-family: Montserrat;
-		text-align: center;
-		color: black;
-		padding: .5em;
-		float: center;
+.callToAction-pages-link-button {
+  border-radius: 8px;
+  border: 1px solid #000000;
+  background-color: #CB97D5;
+  font-size: 25px;
+  font-family: Montserrat;
+  text-align: center;
+  color: black;
+  padding: .5em;
+  float: center;
 }
-.callToAction-main{
-	font-weight: bold;
-	background-color: #B41319;
-	border-radius: 8px;
-	box-sizing: border-box;
-	border: 2px solid #C6C6C6;
-	color: white;
-	padding: 2em;
-		font-size: 12px;
-		font-style: normal;
-		text-align: left;
-		float: center;
+.callToAction-main {
+  font-weight: bold;
+  background-color: #B41319;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 2px double #C6C6C6;
+  color: white;
+  padding: 2em;
+  font-size: 12px;
+  font-style: normal;
+  text-align: left;
+  float: center;
 }
-.callToAction-access-button{
-	background-color: #B41319;
-	border-radius: 8px;
-	box-sizing: border-box;
-	border: 2px solid #C6C6C6;
-	color: white;
-	padding: 2em;
-		font-size: 0.60em;
-		font-style: normal;
-		text-align: left;
-		float: center;
+.callToAction-access-button {
+  background-color: #B41319;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px double #C6C6C6;
+  color: white;
+  padding: 2em;
+  font-size: 10px;
+  font-style: normal;
+  text-align: left;
+  float: center;
+  text-decoration: none;
 }
-.textbox-footer{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 20px;
-	padding: 10px; 
+.return-to-main-page {
+  background-color: #23e882;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px double #000000;
+  color: #B41319;
+  padding: 1em;
+  font-size: 15px;
+  text-align: left;
+  font-family: Montserrat;
+  float: center;
+  text-decoration: none;
+}
+.textbox-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+.subpages{
+	text-decoration: none;
 }
 footer {
-	border-radius: 10px;
-	box-sizing: border-box;
-	border: 2px solid #C6C6C6;
-	background-color: #23e882;
-	overflow: hidden;
-	display: center;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	color: #b41218;
-	}
-#wrapper {
-	min-width: 900px;
-	min-height: 875px;
-/*	max-width: 120px;*/
-/*	box-shadow: 3px 3px 3px #676767;*/
-	background-color: #A5ACC3;
-	margin: 0 atuo;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  background-color: #23e882;
+  overflow: hidden;
+  display: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #b41218;
 }
-
-  
+#wrapper {
+  min-width: 900px;
+  min-height: 875px;
+  /*	max-width: 120px;*/
+  /*	box-shadow: 3px 3px 3px #676767;*/
+  background-color: #A5ACC3;
+  margin: 0 atuo;
+}
